@@ -13,11 +13,11 @@ function resolve (...dir) {
 class CreateSprite {
     constructor (options={}) {
         this.sprites = []
-        this.isRetina = true //为true时，开启3倍图模式，3倍图模式下必须带@3x后缀，否则sprite无法生成
         this.retina = 3 // isRetina为true时，使用的参数.不许修改
         this.fontSize = 75 // 默认以75px为根节点字体.不许修改
-        this.iconPath = options.iconPath||'src/icon/image'
-        this.targetPath =options.targetPath|| 'src/icon/sprite'
+        this.isRetina = options.isRetina||false //为true时，开启3倍图模式，3倍图模式下必须带@3x后缀，否则sprite无法生成
+        this.iconPath = options.iconPath||'src/image'
+        this.targetPath =options.targetPath|| 'src/sprite'
         this.name = options.name||'index'
         this.imageRef = this.imageRefFn(this.targetPath)
         this.templateFunctionRetina = this.templateFunctionRetina.bind(this)
