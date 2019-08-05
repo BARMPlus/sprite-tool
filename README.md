@@ -40,8 +40,8 @@ sprite.run()
 |-src
 | |-image
 | | |-detail
-     |-example3.png
-     |-example4.png
+      |-example3.png
+      |-example4.png
 | | |-example1.png
 | | |-example2.png
 ```
@@ -59,7 +59,7 @@ sprite.run()
   |-sprite
     |-detail
       |-index.png
-      |-index.scss  
+      |-index.scss
     |-index.png
     |-index.scss
 ```
