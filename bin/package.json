@@ -1,0 +1,17 @@
+{
+  "name": "sprite-tool",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "sprite": "node src/sprite"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {},
+  "devDependencies": {
+    "webpack": "^4.39.1",
+    "webpack-spritesmith": "^1.0.1"
+  }
+}
