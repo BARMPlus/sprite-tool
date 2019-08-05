@@ -1,4 +1,4 @@
-const spriteTool=require('../bin')
+const spriteTool=require('../lib')
 
 let sprite = new spriteTool({
     iconPath:'src/image',      //目标路径

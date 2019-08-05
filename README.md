@@ -34,3 +34,15 @@ let sprite = new spriteTool({
 sprite.run()
 ```
 
+###文件路径
+```
+/
+|-src
+| |-image
+| | |-detail
+     |-example3.png
+     |-example4.png
+| | |-example1.png
+| | |-example2.png
+```
+
