@@ -1,30 +1,30 @@
 
-封装element-ui 后台管理系统组件
+sprite-tool 自动生成雪碧图和对应图片的scss文件
 ===
 
 ### 简述
 
-###### 1.此组件为方便个人开发而制作
-###### 2.与element-ui结合,富文本使用vue-quill-editor插件
-###### 3.使用ajax请求插件axios
-###### 4.目前提供组件：input,radio,checkbox,select,date-picker,image,rich-text
-
+###### 1.以webpack-spritesmith为基础加工而成
+###### 2.自动合成雪碧图
+###### 3.支持2x，3x图同时引入
 
 
 
 ### npm安装
 
 ```
-npm install element-ui  --save
-npm install axios --save
-npm install vue-quill-editor --save
-npm install element-field --save
+npm install sprite-tool  --save
 ```
 
 
-### 引入
+### 使用方式
 ```
-import ElementField from 'element-field';
-Vue.use(ElementField);
+const spriteTool=require('sprite-tool')
+let sprite = new spriteTool({
+    iconPath:'src/image',      //目标路径
+    targetPath:'src/sprite',  //生成路径
+    name:'index'  //生成文件名
+})
+sprite.run()
 ```
 
