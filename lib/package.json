@@ -1,13 +1,10 @@
 {
   "name": "sprite-tool",
   "version": "1.0.0",
-  "description": "",
+  "description": "自动生成雪碧图的工具",
   "main": "index.js",
-  "scripts": {
-    "sprite": "node src/sprite"
-  },
   "keywords": [],
-  "author": "",
+  "author": "ccz",
   "license": "MIT",
   "dependencies": {},
   "devDependencies": {

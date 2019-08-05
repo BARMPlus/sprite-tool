@@ -1,0 +1,11 @@
+{
+  "name": "sprite-tool-demo",
+  "version": "1.0.0",
+  "description": "sprite-tool demo",
+  "scripts":{
+    "sprite":"node src/sprite"
+  },
+  "keywords": [],
+  "author": "ccz",
+  "license": "MIT"
+}

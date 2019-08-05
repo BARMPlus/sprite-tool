@@ -46,7 +46,7 @@ sprite.run()
 | | |-example2.png
 ```
 
-### icon生成路径
+### sprite生成路径
 ```
 /
 |-src
