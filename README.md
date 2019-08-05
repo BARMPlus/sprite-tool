@@ -34,7 +34,7 @@ let sprite = new spriteTool({
 sprite.run()
 ```
 
-###文件路径
+### image文件路径
 ```
 /
 |-src
@@ -46,3 +46,20 @@ sprite.run()
 | | |-example2.png
 ```
 
+### icon生成路径
+```
+/
+|-src
+| |-image
+| | |-detail
+      |-example3.png
+      |-example4.png
+| | |-example1.png
+| | |-example2.png
+  |-sprite
+    |-detail
+      |-index.png
+      |-index.scss  
+    |-index.png
+    |-index.scss
+```
