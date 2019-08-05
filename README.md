@@ -7,8 +7,9 @@ sprite-tool 自动生成雪碧图和对应图片的scss文件
 ###### 1.以webpack-spritesmith为基础加工而成
 ###### 2.自动合成雪碧图
 ###### 3.支持2x，3x图同时引入,生成两份雪碧图
-###### 4.isRetina为true时，图片格式例子：`example.png`(2x) `example@3x.png`(3x)
-###### 5.开启isRetina时，图片需要严格按上诉格式，否则无法生成
+###### 4.isRetina为true时，图片名字格式例子：`example.png`(2x) `example@3x.png`(3x)
+###### 5.开启isRetina时，图片名字需要严格按上述格式，否则无法生成。不开启isRetina时，图片名字不做要求。
+###### 6.图片私自转换格式，比如jpg后缀格式修改为png，会导致无法生成雪碧图
 
 
 
