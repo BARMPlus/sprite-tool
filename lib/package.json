@@ -1,11 +1,15 @@
 {
   "name": "sprite-tool",
-  "version": "1.0.0",
+  "version": "0.8.3",
   "description": "自动生成雪碧图的工具",
   "main": "index.js",
   "keywords": [],
   "author": "ccz",
   "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ccz-Eric/sprite-tool"
+  },
   "dependencies": {},
   "devDependencies": {
     "webpack": "^4.39.1",

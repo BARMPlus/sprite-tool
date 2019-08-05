@@ -32,11 +32,7 @@ let sprite = new spriteTool({
     isRetina:false          // 是否开启三倍图模式 default:false
 })
 sprite.run()
-
-tip：在当前用到sprite的文件里面，引用scss资源，不要在全局一次性引入，保证scss按需引入。
-     图片资源只有在被使用到时才会引入，引入scss时不会引入相关图片。
 ```
-
 
 ### image文件路径
 ```
