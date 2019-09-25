@@ -28,8 +28,9 @@ const spriteTool=require('sprite-tool')
 let sprite = new spriteTool({
     iconPath:'src/image',      //目标路径 default：src/image
     targetPath:'src/sprite',  //生成路径 default：src/sprite
-    name:'index',             //生成文件名  default：index
+    name:'index',            //生成文件名  default：index
     isRetina:false          // 是否开启三倍图模式 default:false
+    isRem:true             //是否使用rem
 })
 sprite.run()
 
