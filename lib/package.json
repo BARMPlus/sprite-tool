@@ -1,6 +1,6 @@
 {
   "name": "sprite-tool",
-  "version": "0.8.7",
+  "version": "1.0.0",
   "description": "自动生成雪碧图的工具",
   "main": "index.js",
   "keywords": [],
@@ -10,9 +10,10 @@
     "type": "git",
     "url": "https://github.com/ccz-Eric/sprite-tool"
   },
-  "dependencies": {},
-  "devDependencies": {
-    "webpack": "^4.39.1",
+  "dependencies": {
     "webpack-spritesmith": "^1.0.1"
+  },
+  "devDependencies": {
+    "webpack": "^4.39.1"
   }
 }
