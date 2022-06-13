@@ -21,6 +21,12 @@ sprite-tool 自动生成雪碧图和对应图片的scss文件
 npm install sprite-tool  --save
 ```
 
+### demo运行
+```
+npm install  // 安装依赖
+npm run sprite // 根据src/image目录下的图片自动生成雪碧图和对应css文件
+```
+
 
 ### 使用方式
 ```
